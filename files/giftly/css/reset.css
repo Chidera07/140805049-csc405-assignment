@@ -1,0 +1,38 @@
+*, html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+	color: #000;
+	background: #FFF;
+}
+	
+body, div, h3, h5, h6, input, button, p, figure, figcaption {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: 0;
+}
+
+ul, li {
+	list-style: none;
+}	
+	
+h3, h5, h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+	
+input, button {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+a{
+	text-decoration: none;
+}

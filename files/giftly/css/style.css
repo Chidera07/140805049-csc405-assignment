@@ -1,0 +1,280 @@
+*{
+	font-family: "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif!important;
+	color: #737373;
+}
+
+header{
+	height: 65px;
+	background-color: white;
+	padding-left: 180px;
+	padding-top: 10px;
+	background-color: #DDD;
+}
+
+.header_text{
+	position: absolute;
+	padding-top: 10px;
+	left: 380px;
+	top: 10px;
+	font-size: 18px;
+}
+
+.navigation{
+	position: absolute;
+	right: 187px;
+	top: 17px;
+}
+
+.navigation .how a{
+	font-size: 14px;
+	padding-top: 10px;
+}
+
+.navigation .how a:hover{
+	color: #2ba6cb;
+}
+
+.menu_links{
+	padding-left: 185px;
+	padding-top: 13px;
+	font-size: 15px;
+}
+
+.happs_list{
+	float: left;
+	width: 175px;
+	margin-left: 160px;
+	padding-top: 25px;
+}
+
+.happs_list .thumbnail{
+	width: 195px;
+	height: 269px;
+	padding-top: 10px;
+}
+
+.happs_list .happs_text{
+	font-size: 18px;
+}
+
+.info_place{
+	height: 465px;
+	width: 768px;
+	border-top: 7px solid #397611;
+	border-left: 1px solid #bacbce;
+	border-right: 1px solid #bacbce;
+	border-bottom: 1px solid #bacbce;
+	border-spacing: 5px;
+	border-radius: 10px;
+	display: block;
+	position: absolute;
+	top: 128px;
+	margin-left: 365px;
+	padding: 5px 25px 5px 30px;
+}
+
+.thumbnail2, .thumbnail3, .thumbnail4, .thumbnail5, .thumbnail6{
+	height: 60px;
+	width: auto;
+	position: absolute;
+	left: 178px;
+}
+
+.thumbnail2_text, .thumbnail3_text, .thumbnail4_text, .thumbnail5_text, .thumbnail6_text{
+	font-size: 11px;
+	width: 90px;
+	height: 20px;
+	float: right;
+}
+
+.happs_list .load{
+	position: absolute;
+	left: 178px;
+}
+
+.happs_list .line1{
+	border-bottom: 1px solid gray;
+}
+
+.happs_list .load:hover{
+	color: #2ba6cb;
+}
+
+.happs_list .business{
+	border-bottom: 1px solid gray;
+	line-height: 25px;
+	padding-bottom: 15px;
+}
+
+.happs_list .business a{
+	color: gray;
+	text-decoration: gray underline;
+}
+
+.happs_list .business a:hover{
+	color: #2ba6cb;
+	text-decoration: #2ba6cb underline;
+}
+
+.happs_list .words{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid gray;
+}
+
+.words_heading{
+	font-size: 20px;
+	color: #79959b;
+}
+
+.happs_list .words a{
+	font-size: 14px;
+	color: #9f9e9e;
+	line-height: 25px;
+}
+
+.happs_list .words .words_list{
+	padding-top: 15px;
+}
+
+.happs_list .words .make_yellow{
+	color: #e89f1d;
+}
+
+.happs_list .words .sub_list{
+	padding-left: 15px;
+	font-size: 12px;
+	color: #9f9e9e;
+}
+
+.happs_list .disclosure{
+	font-size: 14px;
+	padding-top: 30px;
+	width: 180px;
+}
+
+.info_place h1{
+	font-family: "museo-slab","Helvetica Neue","Helvetica",Helvetica,Arial,serif;
+
+}
+
+.info_place h6{
+	position: absolute;
+	left: 30px;
+	top: 60px;
+	font-family: sans;
+	font-size: 12px;
+}
+
+.info_place .p1{
+	font-size: 10px;
+	line-height: 40px;
+}
+
+.info_place .holder .p1 .p1_yelp{
+	position: absolute;
+	top: 83px;
+}
+
+.info_place .holder .circle_image{
+	width: 200px;
+	height: 200px;
+}
+
+.info_place .holder .circle_images{
+	position: absolute;
+	left: 0px;
+}
+
+button{
+	background-color: #e0ebed;
+	border-color: #e0ebed;
+	text-align: center;
+	border-radius: 5px;
+	height: 40px;
+	width: 100px;
+	border-bottom: none;
+	border-right: none;
+	margin-left: 10px;
+}
+
+button:hover{
+	background-color: #ffffff;
+	border:3px solid #25c0df;
+	border-radius: 5px;
+}
+
+
+.info_place .bt2, .bt4, .bt6, .bt8{
+	position: absolute;
+	left: 150px;
+}
+
+.info_place input{
+	height: 40px;
+	width: 78px;
+	position: absolute;
+	left: 180px;
+}
+
+.info_place .block{
+	float: right;
+	position: absolute;
+	padding-left: 14px;
+	top: 150px;
+	right: 50px;
+	height: 300px;
+}
+
+.holder .story{
+	width: 300px;
+	height: 180px;
+}
+
+b, a{
+	color: #25c0df;
+}
+
+.info_place a:hover{
+	color: #2ba6cb;
+}
+
+.info_place .bt9{
+	width: 360px;
+	height: 50px;
+	border-bottom: 3px solid #1a9ab5;
+	text-align: center;
+	background-color: #25c0df;
+	border-radius:10px;
+	color: white;
+	position: relative;
+	right: 15px;
+}
+
+.info_place .dollar_sign{
+	position: absolute;
+	left: 165px;
+	top: 352px;
+}
+
+.custom_greetings a:hover{
+	color: white;
+}
+
+.info_place .custom_greetings{
+	border-bottom: 1px solid gray;
+	position: absolute;
+	left: 0px;
+	line-height: 25px;
+}
+
+.info_place .holder .div4{
+	position: absolute;
+	top: 770px;
+	width: 650px;
+}
+
+.info_place .holder .div4 .words_heading{
+	font-size: 25px;
+	padding-top: 15px;
+}

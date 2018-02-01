@@ -1,0 +1,189 @@
+body{
+	background-repeat: repeat;
+	background-size: all;
+	font-family: monospace;
+	margin: 2vw 2vw 2vw 2vw;
+}
+.header .logo1{
+	width: 2vw;
+	height: 2vw;
+	position: absolute;
+	top: 3vw;
+	left: 80vw;
+}
+
+.header .logo2{
+	width: 2vw;
+	height: 2vw;
+	position: absolute;
+	top: 3vw;
+	left: 83vw;
+}
+
+.header .logo3{
+	width: 2vw;
+	height: 2vw;
+	position: absolute;
+	top: 3vw;
+	left: 86vw;
+}
+
+.header .logo4{
+	width: 2vw;
+	height: 2vw;
+	position: absolute;
+	top: 3vw;
+	left: 89vw;
+}
+
+.header .logo5{
+	width: 2vw;
+	height: 2vw;
+	position: absolute;
+	top: 3vw;
+	left: 92vw;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+.link1{
+	font-size: 1.5vw;
+	position: absolute;
+	top: 3vw;
+	left: 35vw;
+}
+
+.link2{
+	font-size: 1.5vw;
+	position: absolute;
+	top: 3vw;
+	left: 45vw;
+}
+
+.link3{
+	font-size: 1.5vw;
+	position: absolute;
+	top: 3vw;
+	left: 55vw;
+}
+
+a:hover{
+	color: #cc0000;
+}
+
+.quote{
+	text-align: center;
+	font-style: italic;
+	font-size: 1vw;
+	font-weight: bold;
+	color: #cc0000;
+
+}
+
+.quote:hover{
+	color: black;
+}
+
+.image1{
+	width: 24vw;
+	height: 27vw;
+	position: absolute;
+	top: 32vw;
+}
+
+.image2{
+	width: 24vw;
+	height: 27vw;
+	position: absolute;
+	top: 32vw;
+	left: 74vw;
+}
+
+
+.intro{
+	font-size: 1vw;
+	color: #cc0000;
+	font-weight: bolder;
+	width: 20vw;
+	height: 20vw;
+	line-height: 2vw;
+	position: absolute;
+	top: 34vw;
+	left: 42vw;
+	text-align: justify;
+}
+
+.image5, .image6, .image7, .image11{
+	width: 1vw;
+	height: 1vw;
+}
+
+.image4, .image8, .image9, .image10{
+	width: 2vw;
+	height: 2vw;
+}
+
+.smile{
+	width: 3vw;
+	height: 3vw;
+}
+
+.image4{
+	position: absolute;
+	top: 20vw;
+	left: 56vw;
+}
+
+.image5{
+	position: absolute;
+	top: 3vw;
+	left: 6vw;
+}
+
+.image6{
+	position: absolute;
+	top: 45vw;
+	left: 30vw;
+}
+
+.image7{
+	position: absolute;
+	top: 29vw;
+	left: 94vw;
+}
+
+.image8{
+	position: absolute;
+	top: 20vw;
+	left: 17vw;
+}
+
+.image9{
+	position: absolute;
+	top: 7vw;
+	left: 48vw;
+}
+
+.image10{
+	position: absolute;
+	top: 7vw;
+	left: 94vw;
+}
+
+.copyright{
+	position: absolute;
+	top: 57vw;
+	left: 45vw;
+}
+
+.copyright:hover{
+	color: #cc0000;
+}
+
+img:hover{
+	color: #000000;
+}

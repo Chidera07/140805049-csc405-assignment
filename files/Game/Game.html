@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title></title>
+  	<link rel="stylesheet" type="text/css" href="game.css">
+  </head>
+  <body>
+ 
+  <div id="inputBox" style="font-family: cursive;text-align: center;width: 100%;">
+    <span id="myName">Please enter your name:</span>
+    <br />
+    <input  type="text" id="userName" />
+    <br />
+    <br />
+    <input id="start" type="button" value="Start Game"></input>
+  </div>
+
+  <div id="inputBox2"style="font-family: cursive;text-align: center;width: 100%;"><span id="myName2"></span></div>
+  
+  <div id="gameplay">
+    <div id="header">
+      <h2 class="second">Click Count: <span id="clickCount"></span></h2>
+      <h2 class="second">Time Left: <span id="timer"></span></h2>
+      <br />
+    </div>
+    <div id="boxes">
+       <div class="box">
+          <div class="circle"></div>
+       </div>
+       <div class="box">
+          <div class="circle"></div>
+       </div>
+       <div class="box">
+          <div class="circle"></div>
+       </div>
+    </div>
+  </div>
+
+  <div id="gameresult">
+    <span id="gameresult2"></span>
+    <!--<input id="replay" type="Button" name="replayButton"/> -->
+  </div>
+
+  <script type="text/javascript" src="game.js"></script>
+  </body>
+</html>

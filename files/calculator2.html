@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator Project(Using tables)</title>
+	<style type="text/css">
+	table.mine{
+		background-color: #3CF;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		border-bottom: solid;
+		border-bottom-color: #36F;
+		border-spacing: 5px; 
+		width: 250px;
+		height: 200px;
+		border-radius: 5px;
+		font-family: Trebuchet;
+	}
+    input#ButtonEval{
+		background-color: #CF9;
+		width: 75px;
+		height: 35px;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		border-bottom: solid;
+		border-bottom-color: #993;
+		border-radius: 5px;
+		font-family: cursive;
+	}	
+	input#ButtonC{
+		background-color: #F99;
+		width: 75px;
+		height: 35px;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		border-bottom: solid;
+		border-bottom-color: #F69;
+		color:white;
+		border-radius: 5px;
+		font-family: cursive;
+	}
+	input#ButtonAC{
+		background-color: #F99;
+		width: 75px;
+		height: 35px;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		border-bottom: solid;
+		border-bottom-color: #F69;
+		color:white;
+		border-radius: 5px;
+		font-family: cursive;
+	}
+	input#inOut{
+		text-align: right;
+		background-color: #699;
+		width: 180px;
+		height: 30px;
+		font-size: 30px;
+		border-left: none;
+		border-right: none;
+		border-top: solid;
+		border-top-color: #666666;
+		border-bottom: none;
+		color: white;
+		border-radius: 5px;
+		font-family: cursive;
+	}
+	input.mine{
+		background-color: white;
+		width: 75px;
+		height: 35px;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		border-bottom: solid;
+		border-bottom-color: #666666;
+		border-radius: 5px;
+		font-family: cursive;
+	}
+
+	</style>
+</head>
+<body>
+<table class="mine" align="center">
+    <tr>
+        <td align="center"><input id="ButtonAC" type="button" value="AC"></input></td>
+        <td align="center"><input id="ButtonC" type="button" value="C"></input></td>
+		<td align="center" colspan="2"><input disabled="disable" type="text" id="inOut" value="" maxlength="13" /></td>
+	</tr>
+	<tr>
+		<td align="center"><input class="mine" id="Button7" type="button" value="7"></input></td>
+		<td align="center"><input class="mine" id="Button8" type="button" value="8"></input></td>
+		<td align="center"><input class="mine" id="Button9" type="button" value="9"></input></td>
+		<td align="center"><input class="mine" id="Button+" type="button" value="+"></input></td>
+	</tr>
+	<tr>
+		<td align="center"><input class="mine" id="Button4" type="button" value="4"></input></td>
+		<td align="center"><input class="mine" id="Button5" type="button" value="5"></input></td>
+		<td align="center"><input class="mine" id="Button6" type="button" value="6"></input></td>
+		<td align="center"><input class="mine" id="Button-" type="button" value="-"></input></td>
+	</tr>
+	<tr>
+	    <td align="center"><input class="mine" id="Button1" type="button" value="1"></input></td>
+		<td align="center"><input class="mine" id="Button2" type="button" value="2"></input></td>
+		<td align="center"><input class="mine" id="Button3" type="button" value="3"></input></td>
+		<td align="center"><input class="mine" id="Button*" type="button" value="x"></input></td>
+	</tr>
+	<tr>
+	    <td align="center"><input class="mine" id="Button0" type="button" value="0"></input></td>
+	    <td align="center"><input class="mine" id="Button." type="button" value="."></input></td>
+		<td align="center"><input           id="ButtonEval" type="button" value="="></input></td>
+		<td align="center"><input class="mine" id="Button/" type="button" value="/"></input></td>
+	</tr>
+</table>
+<script type="text/javascript">
+function myFunction(p1){
+	var currentVal = document.getElementById("inOut").value;
+	var lastChar = currentVal.charAt(currentVal.length-1);
+    var operators = "*-+/.";
+    if(operators.indexOf(p1) != -1 && lastChar == p1)
+    	document.getElementById("inOut").value += "";
+    else
+	    document.getElementById("inOut").value += p1;
+}
+/*document.getElementById("inOut").value = document.getElementById("inOut").value.substring(0,currentVal.length-1);*/
+function removeLastChar(){
+	var currentVal = document.getElementById("inOut").value;
+	var newCurrentVal = "";
+	for (var i = 0; i <= currentVal.length-2; i++){
+		newCurrentVal += currentVal.charAt(i);
+	}
+	document.getElementById("inOut").value = newCurrentVal;
+}
+
+	window.addEventListener("load",function(){
+		document.getElementById("Button1").addEventListener("click", function() {myFunction(1)})
+	    document.getElementById("Button2").addEventListener("click", function() {myFunction(2)})
+		document.getElementById("Button3").addEventListener("click", function() {myFunction(3)})
+		document.getElementById("Button+").addEventListener("click", function() {myFunction("+")})
+		document.getElementById("Button4").addEventListener("click", function() {myFunction(4)})
+		document.getElementById("Button5").addEventListener("click", function() {myFunction(5) })
+		document.getElementById("Button6").addEventListener("click", function() {myFunction(6)})
+		document.getElementById("Button-").addEventListener("click", function() {myFunction("-")})
+		document.getElementById("Button7").addEventListener("click", function() {myFunction(7)})
+		document.getElementById("Button8").addEventListener("click", function() {myFunction(8)})
+		document.getElementById("Button9").addEventListener("click", function() {myFunction(9)})
+		document.getElementById("Button*").addEventListener("click", function() {myFunction("*")})
+		document.getElementById("Button0").addEventListener("click", function() {myFunction(0)})
+		document.getElementById("Button.").addEventListener("click", function() {myFunction(".")})
+		document.getElementById("Button/").addEventListener("click", function() {myFunction("/")})
+		document.getElementById("ButtonAC").addEventListener("click", function() {document.getElementById("inOut").value = "";})
+		document.getElementById("ButtonC").addEventListener("click", function() {removeLastChar()})
+		document.getElementById("ButtonEval").addEventListener("click", function() {document.getElementById("inOut").value = eval(document.getElementById("inOut").value);})   
+    })                                                     
+</script>
+</body>
+</html>

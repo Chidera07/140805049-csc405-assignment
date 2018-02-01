@@ -1,0 +1,146 @@
+html{
+	background-color: #ffffff;
+}
+
+.outer{
+	border: 2vw solid #fff3ff;
+}
+
+.inner{
+	border: 2vw solid #ffffff;
+}
+
+.about{
+	text-align: center;
+	border: 2vw solid #fff3ff;
+	background-color: #fff3ff;
+	box-shadow: #ffb3b3;
+}
+
+.about_image{
+	margin-top: 1vw;
+	width: 40vw;
+	height: 13vw;
+}
+
+.image1{
+	width: 10vw;
+	position: absolute;
+	top: 9vw;
+	left: 63vw;
+}
+
+.line{
+	width: 10vw;
+	height: 1vw;
+	background-color: #000000;
+	position: absolute;
+	border: none;
+	top: 13vw;
+	left: 54vw;
+
+}
+
+.story{
+	width: 50vw;
+	position: relative;
+	left: 22vw;
+	background-color: #fff3ff;
+	box-shadow: #ffb3b3;
+	text-align: justify;
+	color: #000000;
+	font-family: cursive;
+	font-style: italic;
+	line-height: 2vw;
+}
+
+.about .story li{
+	list-style-type: square;
+}
+
+a{
+	text-decoration: none;
+	color: #cc0000;
+}
+
+a:hover{
+	color: #000000;
+}
+
+.image2{
+	width: 2vw;
+	height: 2vw;
+	position: absolute;
+	top: 44vw;
+	left: 50vw;
+}
+
+.contact{
+	border: 1px solid #ffffff;
+	border-radius: 2vw;
+	width: 45vw;
+	height: 23vw;
+	position: relative;
+	top: 0vw;
+	left: 22vw;
+	background-color: #ffffff;
+	line-height: 2vw;
+}
+
+.contact .input1, .contact .input2, .contact .input3{
+	width: 15vw;
+	height: 1.5vw;
+	border-color: #000000;
+	border-radius: 1vw;
+}
+
+.contact .input1{
+	position: relative;
+	left: 1vw;
+}
+
+.contact .input2{
+	position: relative;
+	top: 0.6vw;
+	left: 1vw;
+}
+
+.contact .input3{
+	height: 7vw;
+	position: absolute;
+	top: 11vw;
+	left: 18vw;
+}
+
+.outer .inner .contact .imessage{
+	position: relative;
+	left: -7.5vw;
+	font-weight: bold;
+}
+
+.contact .send{
+	width: 7vw;
+	height: 3vw;
+	border: none;
+	border-radius: 2vw;
+	position: absolute;
+	top: 19vw;
+	left: 20vw;
+	font-family: Times New Roman;
+	font-weight: bold;
+}
+
+.image11{
+	width: 1vw;
+	height: 1vw;
+}
+
+.copyright{
+	position: absolute;
+	top: 71vw;
+	left: 47vw;
+}
+
+.copyright:hover{
+	color: #cc0000;
+}
